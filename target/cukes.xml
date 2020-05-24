@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="34.95">
+<testcase classname="Search and place online order for groceries" name="search for items and validate results" time="11.678">
+<system-out><![CDATA[Given user open the browser.................................................passed
+When browser opens..........................................................passed
+Then maximize the browser...................................................passed
+And Delete all cookies......................................................passed
+Given User is on greencart landing page.....................................passed
+When user search for Cucumber...............................................passed
+Then results for "Cucumber" are displayed...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place online order for groceries" name="search for items and validate results 2" time="12.066">
+<system-out><![CDATA[Given user open the browser.................................................passed
+When browser opens..........................................................passed
+Then maximize the browser...................................................passed
+And Delete all cookies......................................................passed
+Given User is on greencart landing page.....................................passed
+When user search for Brinjal................................................passed
+And Added items to cart.....................................................passed
+And User proceeded to checkout page for purchase............................passed
+Then verify selected Brinjal items are displayed in checkout page...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place online order for groceries" name="search for items and validate results 3" time="10.846">
+<system-out><![CDATA[Given user open the browser.................................................passed
+When browser opens..........................................................passed
+Then maximize the browser...................................................passed
+And Delete all cookies......................................................passed
+Given User is on greencart landing page.....................................passed
+When user search for Beetroot...............................................passed
+And Added items to cart.....................................................passed
+And User proceeded to checkout page for purchase............................passed
+Then verify selected Beetroot items are displayed in checkout page..........passed
+]]></system-out>
+</testcase>
+</testsuite>

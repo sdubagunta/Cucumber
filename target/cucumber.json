@@ -1,0 +1,473 @@
+[
+  {
+    "line": 23,
+    "elements": [
+      {
+        "line": 25,
+        "name": "open the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user open the browser",
+            "match": {
+              "location": "steps.BackgroundSteps.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "browser opens",
+            "match": {
+              "location": "steps.BackgroundSteps.browser_opens()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "maximize the browser",
+            "match": {
+              "location": "steps.BackgroundSteps.maximize_the_browser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Delete all cookies",
+            "match": {
+              "location": "steps.BackgroundSteps.delete_all_cookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-24T14:12:48.408Z",
+        "line": 32,
+        "name": "search for items and validate results",
+        "description": "",
+        "id": "search-and-place-online-order-for-groceries;search-for-items-and-validate-results",
+        "after": [
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.AfterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10157000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on greencart landing page",
+            "match": {
+              "location": "steps.MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1252000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user search for Cucumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MyStepDefinitions.user_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "results for \"Cucumber\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.MyStepDefinitions.results_for_something_are_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FirstTest"
+          },
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "open the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user open the browser",
+            "match": {
+              "location": "steps.BackgroundSteps.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "browser opens",
+            "match": {
+              "location": "steps.BackgroundSteps.browser_opens()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "maximize the browser",
+            "match": {
+              "location": "steps.BackgroundSteps.maximize_the_browser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Delete all cookies",
+            "match": {
+              "location": "steps.BackgroundSteps.delete_all_cookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-24T14:13:00.097Z",
+        "line": 47,
+        "name": "search for items and validate results",
+        "description": "",
+        "id": "search-and-place-online-order-for-groceries;search-for-items-and-validate-results;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 235000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.AfterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10197000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on greencart landing page",
+            "match": {
+              "location": "steps.MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1269000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user search for Brinjal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MyStepDefinitions.user_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Added items to cart",
+            "match": {
+              "location": "steps.MyStepDefinitions.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User proceeded to checkout page for purchase",
+            "match": {
+              "location": "steps.MyStepDefinitions.user_proceeded_to_checkout_page_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "verify selected Brinjal items are displayed in checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MyStepDefinitions.verify_selected_items_are_displayed_in_checkout_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FirstTest"
+          },
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "open the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user open the browser",
+            "match": {
+              "location": "steps.BackgroundSteps.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "browser opens",
+            "match": {
+              "location": "steps.BackgroundSteps.browser_opens()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "maximize the browser",
+            "match": {
+              "location": "steps.BackgroundSteps.maximize_the_browser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Delete all cookies",
+            "match": {
+              "location": "steps.BackgroundSteps.delete_all_cookies()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-24T14:13:12.165Z",
+        "line": 48,
+        "name": "search for items and validate results",
+        "description": "",
+        "id": "search-and-place-online-order-for-groceries;search-for-items-and-validate-results;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.AfterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9113000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on greencart landing page",
+            "match": {
+              "location": "steps.MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1271000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user search for Beetroot",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MyStepDefinitions.user_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Added items to cart",
+            "match": {
+              "location": "steps.MyStepDefinitions.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User proceeded to checkout page for purchase",
+            "match": {
+              "location": "steps.MyStepDefinitions.user_proceeded_to_checkout_page_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "verify selected Beetroot items are displayed in checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MyStepDefinitions.verify_selected_items_are_displayed_in_checkout_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FirstTest"
+          },
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place online order for groceries",
+    "description": "",
+    "id": "search-and-place-online-order-for-groceries",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": [
+      {
+        "name": "@FirstTest",
+        "type": "Tag",
+        "location": {
+          "line": 22,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
